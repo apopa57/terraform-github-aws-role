@@ -15,7 +15,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1-node16
         with:
-          role-to-assume: arn:aws:iam::350179025345:role/terraform-20221129074145256500000001
+          role-to-assume: arn:aws:iam::059224365793:role/github-messaging-first-chat-role-for-sam
           role-session-name: github
           aws-region: ${{ env.AWS_REGION }}
       - name: List S3 bucket contents
