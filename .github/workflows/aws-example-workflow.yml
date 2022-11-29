@@ -15,7 +15,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1-node16
         with:
-          role-to-assume: arn:aws:iam::059224365793:role/github-messaging-first-chat-role-for-sam
+          role-to-assume: arn:aws:iam::350179025345:role/github-workflows
           role-session-name: github
           aws-region: ${{ env.AWS_REGION }}
       - name: List S3 bucket contents

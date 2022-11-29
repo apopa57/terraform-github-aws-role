@@ -11,3 +11,8 @@ Please note this does not work with CCoE accounts out of the box.
 terraform init
 AWS_PROFILE=... terraform apply
 ```
+
+## Clean up
+```
+AWS_PROFILE=... terraform destroy
+```
